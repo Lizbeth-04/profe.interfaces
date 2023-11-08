@@ -1,0 +1,20 @@
+.btn-animado {
+    padding: 10 px ;
+font-size: 100 px ;
+border: none ;
+background-color:aliceblue;
+color: red;
+cursor:pointer;
+border-radius: 50px;
+box-shadow: 10px 10px 15px;
+transition: all 0.9s ease;
+}
+.btn-animado:hover { 
+scale: 1.2;
+font-weight: bolder;
+background-color: aqua;
+color:blue;
+transform: trans2ateY(-5px);
+box-shadow: 30px 30px 30px gray;
+
+}

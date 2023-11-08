@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'arial',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+height: 100vh;
+object-fit: cover;
+background-image:url( https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.123rf.com%2Fphoto_196177803_imagen-de-caricatura-de-un-astronauta-sentado-en-una-luna-ilustraci%25C3%25B3n-de-alta-calidad.html&psig=AOvVaw1oC6qQ3R05BD4ubVwFkvY3&ust=1698891640938000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMiOjNjeoYIDFQAAAAAdAAAAABAJ);}
