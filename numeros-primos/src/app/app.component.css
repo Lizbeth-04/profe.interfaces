@@ -255,4 +255,50 @@
   text-align: center;
   background-color: #6ac4f1;
   border: 2px solid #6ac4f1;
+  display: flex;
 }
+#contenedor{ 
+  display: flex;
+  align-items: center;
+
+width: 1440px;
+height: 1000px;
+background-color: #3460db;
+justify-content: center;
+
+text-align: center;
+}
+#rectangulo23 {
+  text-align: center;
+ align-items: center;
+ flex-direction: column-reverse;
+  background-color: #dad0c9;
+  border: 5px;
+  padding: 5px;
+  
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  border: 7px solid;
+ 
+  justify-content: center;
+  box-shadow: 10px 10px 10px 10px rgb(2, 58, 10)
+}
+.bosque{
+  padding: 10px;
+  text-align: center;
+  
+  border-radius: 30px;
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+
+  
+  
+}
+.h2{ text-align: center;
+color: rgba(213, 12, 143, 0.917);
+font-family: "staattliches";
+}
+.H3{text-align: center;
+color: rgb(18, 17, 16);}
