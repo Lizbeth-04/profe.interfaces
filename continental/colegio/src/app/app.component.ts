@@ -3,11 +3,15 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { ContiComponent } from './components/conti/conti.component';
 import { ImagComponent } from './components/imag/imag.component';
+import { TittleComponent } from './components/tittle/tittle.component';
+import { EncabezadoComponent } from './components/encabezado/encabezado.component';
+import { VirtualComponent } from './components/virtual/virtual.component';
+import { BottonComponent } from './components/botton/botton.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet,ContiComponent,ImagComponent],
+  imports: [CommonModule, RouterOutlet,ContiComponent,ImagComponent,TittleComponent,EncabezadoComponent,VirtualComponent,BottonComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
